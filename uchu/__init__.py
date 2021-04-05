@@ -1,3 +1,2 @@
 
-from uchu.do.spaces import Space
-from uchu.aws.athena import Athena
+from uchu import do, aws
