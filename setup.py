@@ -4,8 +4,8 @@ import setuptools
 setup(
   name = 'uchu',
   packages = ['uchu'],
-  version = '0.0.2',
-  description = 'Sane interface to DigitalOcean Spaces.',
+  version = '0.0.3',
+  description = 'Sane interface to cloud services.',
   long_description = '',
   author = '',
   license = '',
