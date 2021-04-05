@@ -1,2 +1,2 @@
 
-from uchu.aws import *
+from uchu.aws.athena import Athena

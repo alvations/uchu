@@ -4,7 +4,7 @@ import setuptools
 setup(
   name = 'uchu',
   packages = ['uchu'],
-  version = '0.0.5',
+  version = '0.0.7',
   description = 'Sane interface to cloud services.',
   long_description = '',
   author = '',
