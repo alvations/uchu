@@ -1,2 +1,2 @@
 
-from uchu.do.space import *
+from uchu.do.space import Space

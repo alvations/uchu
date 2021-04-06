@@ -1,10 +1,9 @@
-from distutils.core import setup
-import setuptools
+from setuptools import setup, find_packages
 
 setup(
   name = 'uchu',
-  packages = ['uchu'],
-  version = '0.0.7',
+  packages = find_packages(),
+  version = '0.0.10',
   description = 'Sane interface to cloud services.',
   long_description = '',
   author = '',

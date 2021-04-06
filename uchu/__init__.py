@@ -1,3 +1,2 @@
 
-from uchu.do import *
-from uchu.aws import *
+from uchu import aws, do
