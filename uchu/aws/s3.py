@@ -53,5 +53,5 @@ class S3:
         return Path(filename).exists()
 
     def list_files(self, bucket_name):
-        for content in dospace._client.list_objects(Bucket=bucket_name)['Contents']:
+        for content in self._client.list_objects(Bucket=bucket_name)['Contents']:
             yield content['Key']

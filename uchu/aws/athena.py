@@ -18,5 +18,3 @@ class Athena:
     def query_status(self, query_id):
         response = self._client.get_query_execution(QueryExecutionId=query_id)
         return response['QueryExecution']['Status']['State']
-
-    
